@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cheat">
+      <UniqueIdentifier>{aba69893-cda8-4479-bb0a-171570708e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{f482ee48-cf10-49ce-a78f-adfe7e3ed829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket">
+      <UniqueIdentifier>{49194b82-48d8-48be-9e2d-5e2e2223a450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{cf8a8b66-dbd9-448b-8c2e-eec83bb04f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\config">
+      <UniqueIdentifier>{c50d1a2c-7af4-44f5-a3e9-590f80ba6201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\features">
+      <UniqueIdentifier>{4bce26f7-9133-4ae5-bdde-ef70c95f3b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\menu">
+      <UniqueIdentifier>{94dfd35e-2c89-4287-b524-f2135d9b5388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\misc">
+      <UniqueIdentifier>{3df5c1e6-c232-45c9-bb72-735671360f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\rendering">
+      <UniqueIdentifier>{9f0459a7-416d-4113-a471-9ca4200d0a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\utils">
+      <UniqueIdentifier>{5152c8eb-1449-40ab-bc41-31b8fea572ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\features\alarm">
+      <UniqueIdentifier>{a9d6ca08-4d32-40bd-86f0-634aafaf9747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\features\captcha">
+      <UniqueIdentifier>{bac998f7-708e-4166-b1ba-1837223676e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\features\chat_detect">
+      <UniqueIdentifier>{b3380f78-63d8-4558-8f7f-1ca46218613a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\features\collisions">
+      <UniqueIdentifier>{38d8bcd8-36b2-4c60-afce-b92f654f626b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\features\packets">
+      <UniqueIdentifier>{11307823-b47e-45af-bb76-a9290e113c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\features\route_randomizer">
+      <UniqueIdentifier>{c7d58a76-faa9-47ca-a427-8492ef7900b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\features\screenshot">
+      <UniqueIdentifier>{caf29549-1d3b-4b2f-ab2d-5394a5439cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\features\waypoints">
+      <UniqueIdentifier>{aba0edaf-a4fe-4223-bbf3-e633e76040cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\raknet">
+      <UniqueIdentifier>{65ba3fd2-859c-4ae0-8a8c-583d05f469e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\types">
+      <UniqueIdentifier>{206ed371-7785-4cae-a431-dbb10510d314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\imgui">
+      <UniqueIdentifier>{48649ecc-4cea-4558-ae74-8ed80b67bd32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\detours">
+      <UniqueIdentifier>{bdb30a8e-0caa-4483-8a15-c5f0d63681af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\cheat\cheat.hpp">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\variables.hpp">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\config\configs.h">
+      <Filter>cheat\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\config\packets_config.hpp">
+      <Filter>cheat\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\config\public_configs.hpp">
+      <Filter>cheat\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\config\waypoints_config.hpp">
+      <Filter>cheat\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\menu\imgui_addon.h">
+      <Filter>cheat\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\menu\menu.h">
+      <Filter>cheat\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\misc\callbacks.hpp">
+      <Filter>cheat\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\misc\hooks.hpp">
+      <Filter>cheat\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\misc\memory.hpp">
+      <Filter>cheat\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\utils\crypto.hpp">
+      <Filter>cheat\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\utils\global_utils.hpp">
+      <Filter>cheat\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\utils\packets_utils.hpp">
+      <Filter>cheat\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\utils\utils.hpp">
+      <Filter>cheat\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\utils\waypoints_utils.hpp">
+      <Filter>cheat\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\rendering\render_utils.hpp">
+      <Filter>cheat\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\rendering\renderer.hpp">
+      <Filter>cheat\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\rendering\rendering.h">
+      <Filter>cheat\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\features\alarm\alarm.h">
+      <Filter>cheat\features\alarm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\features\captcha\captcha.h">
+      <Filter>cheat\features\captcha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\features\chat_detect\chat_block.h">
+      <Filter>cheat\features\chat_detect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\features\chat_detect\chat_detect.h">
+      <Filter>cheat\features\chat_detect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\features\chat_detect\chatlog.h">
+      <Filter>cheat\features\chat_detect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\features\collisions\collisions.h">
+      <Filter>cheat\features\collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\features\screenshot\screenshot.h">
+      <Filter>cheat\features\screenshot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\features\route_randomizer\route_randomizer.h">
+      <Filter>cheat\features\route_randomizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\features\waypoints\waypoints.h">
+      <Filter>cheat\features\waypoints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\cheat\features\packets\packets.h">
+      <Filter>cheat\features\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\game\modules.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\game\offsets.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\game\samp.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\game\types\chat.hpp">
+      <Filter>game\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\game\types\dialog.hpp">
+      <Filter>game\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\game\types\info.hpp">
+      <Filter>game\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\game\types\localplayer.hpp">
+      <Filter>game\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\game\types\syncdata.h">
+      <Filter>game\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\game\types\textdraws.hpp">
+      <Filter>game\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\game\types\vehicles.hpp">
+      <Filter>game\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\game\raknet\bitstream.h">
+      <Filter>game\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\game\raknet\NetworkTypes.h">
+      <Filter>game\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\game\raknet\rakclient.h">
+      <Filter>game\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\game\raknet\RakNetDefines.h">
+      <Filter>game\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\socket\commands.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\socket\hwid.hpp">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\socket\socket_handler.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\socket\socket_utils.hpp">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vendor\imgui\FontAwesome.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vendor\imgui\imconfig.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vendor\imgui\imgui.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vendor\imgui\imgui_impl_dx9.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vendor\imgui\imgui_impl_win32.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vendor\imgui\imgui_internal.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vendor\imgui\imstb_rectpack.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vendor\imgui\imstb_textedit.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vendor\imgui\imstb_truetype.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vendor\detours\detours.h">
+      <Filter>vendor\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vendor\detours\detver.h">
+      <Filter>vendor\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vendor\detours\wrapper.hpp">
+      <Filter>vendor\detours</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\cheat\config\configs.cpp">
+      <Filter>cheat\config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\cheat\menu\menu.cpp">
+      <Filter>cheat\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\cheat\rendering\rendering.cpp">
+      <Filter>cheat\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\cheat\features\alarm\alarm.cpp">
+      <Filter>cheat\features\alarm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\cheat\features\captcha\captcha.cpp">
+      <Filter>cheat\features\captcha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\cheat\features\chat_detect\chat_block.cpp">
+      <Filter>cheat\features\chat_detect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\cheat\features\chat_detect\chat_detect.cpp">
+      <Filter>cheat\features\chat_detect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\cheat\features\chat_detect\chatlog.cpp">
+      <Filter>cheat\features\chat_detect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\cheat\features\collisions\collisions.cpp">
+      <Filter>cheat\features\collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\cheat\features\screenshot\screenshot.cpp">
+      <Filter>cheat\features\screenshot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\cheat\features\route_randomizer\route_randomizer.cpp">
+      <Filter>cheat\features\route_randomizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\cheat\features\waypoints\waypoints.cpp">
+      <Filter>cheat\features\waypoints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\cheat\features\packets\packets.cpp">
+      <Filter>cheat\features\packets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\game\raknet\bitstream.cpp">
+      <Filter>game\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\game\raknet\rakclient.cpp">
+      <Filter>game\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\socket\commands.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\socket\socket_handler.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vendor\imgui\imgui.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vendor\imgui\imgui_demo.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vendor\imgui\imgui_draw.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vendor\imgui\imgui_impl_dx9.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vendor\imgui\imgui_impl_win32.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vendor\imgui\imgui_tables.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vendor\imgui\imgui_widgets.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
