@@ -4,6 +4,7 @@
 
 ## **Status**
 Currently sold and used by over **400 users** worldwide.
+The open-source nature allows for analysis and potential applications in various job contexts.
 
 ## **Features**
 - Intelligent task automation for seamless execution  
